@@ -1,0 +1,42 @@
+.container {
+  /* width: 100%; */
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1024px;
+  padding-left: 71px;
+  padding-right: 71px;
+}
+/* 
+.film-cards {
+  padding-top: 20px;
+  padding-bottom: 137px;
+} */
+
+.filmCard {
+  flex-wrap: wrap;
+  display: flex;
+  /* grid-template-columns: repeat(3, 288px); */
+}
+
+.filmCardContainer {
+  padding: 20px 40px;
+}
+
+.filmCardList {
+  margin-right: 30px;
+  margin-top: 30px;
+  max-width: 280px;
+  border-radius: 5px;
+  transform: scale(1);
+}
+
+.filmCardLink {
+  display: block;
+  cursor: pointer;
+}
+
+.posterSize {
+  width: 270px;
+}
