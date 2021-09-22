@@ -8,20 +8,15 @@
   padding-left: 71px;
   padding-right: 71px;
 }
-/* 
-.film-cards {
-  padding-top: 20px;
-  padding-bottom: 137px;
-} */
+
+.posterSize {
+  width: 270px;
+}
 
 .filmCard {
   flex-wrap: wrap;
   display: flex;
   /* grid-template-columns: repeat(3, 288px); */
-}
-
-.filmCardContainer {
-  padding: 20px 40px;
 }
 
 .filmCardList {
@@ -32,13 +27,13 @@
   transform: scale(1);
 }
 
+.filmCardContainer {
+  padding: 20px 40px;
+}
+
 .filmCardLink {
   display: block;
   cursor: pointer;
-}
-
-.posterSize {
-  width: 270px;
 }
 
 .title {

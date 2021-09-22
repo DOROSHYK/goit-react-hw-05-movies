@@ -46,7 +46,7 @@ class MoviesDetailsPage extends Component {
       } = film;
       return (
         <div className={styles.movieDetailsContainer}>
-          <button onClick={this.goBackHandler}>Go back</button>
+          {/* <button onClick={this.goBackHandler}>Go back</button> */}
           <div className={styles.filmCard}>
             <h3 className={styles.title}>{title && original_title}</h3>
 

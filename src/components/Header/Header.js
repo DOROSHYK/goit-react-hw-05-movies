@@ -6,12 +6,14 @@ import routes from '../../routes';
 const Header = () => {
   return (
     <header className={styles.header}>
-      <NavLink exact to={routes.home} activeClassName={styles.active}>
-        Home
-      </NavLink>
-      <NavLink to={routes.movies} activeClassName={styles.active}>
-        Movies
-      </NavLink>
+      <div className={styles.containerNavigation}>
+        <NavLink exact to={routes.home} activeClassName={styles.active}>
+          Home
+        </NavLink>
+        <NavLink to={routes.movies} activeClassName={styles.active}>
+          Movies
+        </NavLink>
+      </div>
     </header>
   );
 };

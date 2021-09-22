@@ -1,0 +1,25 @@
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.header a {
+  padding: 10px;
+  text-decoration: none;
+  margin-right: 8px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.header a.active {
+  color: grey;
+}
+
+.containerNavigation {
+  display: flex;
+  flex-direction: inherit;
+}

@@ -43,7 +43,9 @@ class HomePage extends Component {
                       alt=""
                       className={st.posterSize}
                     />
-                    {film.title ? film.title : film.original_name}
+                    <h2 className={st.title}>
+                      {film.title ? film.title : film.original_name}
+                    </h2>
                   </NavLink>
                 </li>
               ))}

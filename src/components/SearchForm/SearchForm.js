@@ -12,18 +12,20 @@ class SearchForm extends Component {
 
   submitHandler = e => {
     e.preventDefault();
-    this.props.onSubmit(this.state.searchQuery);
+    const { searchQuery } = this.state;
+    this.props.onSubmit(searchQuery);
     this.setState({ searchQuery: '' });
   };
 
   render() {
+    const { searchQuery } = this.state;
     return (
       <form onSubmit={this.submitHandler}>
         <input
           type="text"
-          value={this.state.searchQuery}
+          value={searchQuery}
           onChange={this.changeHandler}
-          required
+          // required
         ></input>
         <button type="submit">Search</button>
       </form>
