@@ -11,6 +11,8 @@
     'b c c'
     'b c c';
   border-bottom: 1px solid #000;
+
+  margin-top: 100px;
 }
 
 .title {
@@ -40,4 +42,10 @@
 
 .blockLink {
   display: block;
+}
+
+.goBackButton {
+  margin-top: 100px;
+  position: fixed;
+  left: 28px;
 }
